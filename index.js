@@ -7,7 +7,7 @@ function priceCheck(price) {
 };
 function strictPriceCheck(price) {
   if (price === 1.5) {
-    document.getElementById('result').innerHTML = 'match';
+  return document.getElementById('result').innerHTML = 'match';
   } else {
     document.getElementById('result').innerHTML = 'not a match';
   };
